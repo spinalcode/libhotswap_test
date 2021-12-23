@@ -11,7 +11,7 @@ const uint8_t* tiles = nullptr;
 const uint8_t* collisionTile = nullptr;
 // Make a hotswap area for level data
 // size = 64*1024k, unique id = 0
-using LevelData = Hotswap<44*1024, 0>; // multiple of 8kb = Palette and level tiles
+using LevelData = Hotswap<50*1024, 0>; // multiple of 8kb = Palette and level tiles
 
 uint16_t gamePalette[256];
 
